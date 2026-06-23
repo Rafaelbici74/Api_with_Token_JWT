@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
 app.use('/api/auth', authRoutes);
 
 
-
 // App
 const PORT = process.env.PORT || 3000;
 
